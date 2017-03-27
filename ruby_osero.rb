@@ -1,4 +1,4 @@
-class OseroGame
+class RubyOsero
   BLANK = "・" # 置き石無し
   BLACK = "○ " # 黒
   WHITE = "● " # 白
@@ -261,5 +261,5 @@ class OseroGame
 
 end
 
-game = OseroGame.new
+game = RubyOsero.new
 game.run()
